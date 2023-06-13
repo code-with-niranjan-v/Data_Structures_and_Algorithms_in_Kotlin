@@ -2,12 +2,11 @@ package linkedList
 
 fun main() {
 
-    val node1 = Node(1)
-    val node2 = Node(2)
-    val node3 = Node(3)
-    node1.next = node2
-    node2.next = node3
+    val linkedList = LinkedList<Int>()
+    linkedList.push(3)
+    linkedList.push(2)
+    linkedList.push(1)
 
-    println(node1)
+    println(linkedList)
 
 }
