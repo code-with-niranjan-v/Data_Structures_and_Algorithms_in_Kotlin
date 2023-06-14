@@ -3,10 +3,8 @@
 fun main() {
 
     val linkedList = LinkedList<Int>()
-    linkedList.push(3)
-    linkedList.push(2)
-    linkedList.push(1)
+    linkedList.push(3).push(2).push(1).push(0)
 
-    println(linkedList)
+    println(linkedList.append(4).append(5))
 
 }
