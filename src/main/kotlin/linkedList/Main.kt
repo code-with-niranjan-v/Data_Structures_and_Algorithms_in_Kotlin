@@ -1,4 +1,4 @@
-package linkedList
+
 
 fun main() {
 
