@@ -13,6 +13,7 @@
     1.push - add value at the beginning of the list.
     2.append - add value at the end of the list.
     3.insert - insert value at a particular node.
+    4.pop - remove the first node.
 
  */
 
@@ -86,6 +87,21 @@ class LinkedList<T> {
         return newNode
 
     }
+
+    fun pop(): T? {
+        if (!isEmpty()) size--
+        val result = head?.value
+        head = head?.next
+
+        if(isEmpty()){
+            tail = null
+        }
+
+        return result
+
+
+    }
+
 
 
 }

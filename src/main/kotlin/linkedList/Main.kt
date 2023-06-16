@@ -13,5 +13,8 @@ fun main() {
     //Inserting the Node
     linkedList.insert(10,nodeAt)
     println(linkedList)
+    //Pop
+    linkedList.pop()
+    println(linkedList)
 
 }
